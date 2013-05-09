@@ -38,12 +38,10 @@
 |
 */
 
-$route['default_controller'] = "frontend";
-$route['404_override'] = 'my404';
-$route['access'] = 'user/login';
-$route['login/check'] = 'user/check';
-$route['ajax/checkuser'] = 'user/check_exists_user';
-$route['practiques'] = 'activity';
+$route['default_controller'] = "welcome";
+$route['404_override'] = '';
+$route['login'] = 'login';
+$route['gestion'] = 'gestion';
 
 
 /* End of file routes.php */

@@ -45,24 +45,25 @@
 | the active record class
 */
 
-$active_group = 'default';
+$active_group = 'administrator';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'proj_practicas';
-$db['default']['dbdriver'] = 'mysqli';
-$db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = '';
-$db['default']['char_set'] = 'utf8';
-$db['default']['dbcollat'] = 'utf8_general_ci';
-$db['default']['swap_pre'] = '';
-$db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
+//BBBD del Administrador
+$db['administrator']['hostname'] = 'localhost';
+$db['administrator']['username'] = 'root';
+$db['administrator']['password'] = '';
+$db['administrator']['database'] = 'inventory';
+$db['administrator']['dbdriver'] = 'mysqli';
+$db['administrator']['dbprefix'] = '';
+$db['administrator']['pconnect'] = TRUE;
+$db['administrator']['db_debug'] = TRUE;
+$db['administrator']['cache_on'] = FALSE;
+$db['administrator']['cachedir'] = '';
+$db['administrator']['char_set'] = 'utf8';
+$db['administrator']['dbcollat'] = 'utf8_general_ci';
+$db['administrator']['swap_pre'] = '';
+$db['administrator']['autoinit'] = TRUE;
+$db['administrator']['stricton'] = FALSE;
 
 
 /* End of file database.php */
